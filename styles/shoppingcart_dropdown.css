@@ -1,0 +1,135 @@
+
+#shopcart_wrap
+{
+	position: absolute;
+	top:60px;
+	/*left:60%;*/
+	right:2%;
+    width:400px;
+    height:200px;
+    border:solid 1px;
+    border-color: #EDEDED;
+    font-family: 'Titillium Web', Arial, sans-serif;
+		/*display: none;*/
+	display:none;
+	background-color: #FFFFFF;
+
+}
+#checkout_item_list{
+	position: relative;
+	
+    width:400px;
+    height:140px;
+    /*border:solid 1px;*/
+    border-color: #000000;
+    font-family: 'Titillium Web', Arial, sans-serif;
+		/*display: none;*/
+
+	background-color: #FFFFFF;
+}
+.checkout_item{
+	position: relative;
+    width:380px;
+    left: 5px;
+    height:70px;
+    /*border:solid 1px;*/
+        border-color: #EDEDED;
+        font-family: 'Titillium Web', Arial, sans-serif;
+		/*display: none;*/
+
+	background-color: #FFFFFF;
+}
+.orderImage{
+	float: left;
+	position: relative;
+	left:10px;
+	top:10px;
+
+}
+.orderImage img{
+	height:50px;
+	width:50px;
+}
+
+.item_name{
+	float: left;
+	/*border:solid 1px;*/
+	position: relative;
+	width:150px;
+    left:50px;
+    top :10px;
+    height:25px;
+    font-size: 20px;
+    text-align: left;
+}
+.seller_name{
+	float: left;
+	/*border:solid 1px;*/
+	position: absolute;
+	width:150px;
+    left:100px;
+    top :40px;
+    height:25px;
+    font-size: 16px;
+    text-align: left;
+
+}
+.seller_name a{
+	color: #000000;
+
+}
+
+.item_price{
+	float: left;
+	/*border:solid 1px;*/
+	position: relative;
+	width:80px;
+    left:70px;
+    top :20px;
+    height:25px;
+    font-size: 20px;
+    text-align: left;
+}
+
+#checkout
+{
+	background-color: #099;
+	float: right;
+	color: #FFF;
+	border: none;
+	font-weight: bold;
+	font-size: 12pt;
+	padding: 10px 20px 10px 20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	font-family: 'Titillium Web', Arial, sans-serif;
+}
+#checkout a{
+	text-decoration: none;
+	color: #FFF;
+	border: none;
+	font-weight: bold;
+	font-size: 12pt;
+	
+}
+.h_line{
+	position:relative;
+	border:solid 1px;
+	top:68px;
+	z-index: 1
+}
+#closeCart{
+	z-index: 30;
+	text-decoration: none;
+	position:relative;
+	left:10px;
+	top:15px;
+	font-size: 20px;
+	font-family: 'Titillium Web', Arial, sans-serif;
+	color:#000000;
+}
+#closeCart img{
+	width:40px;
+	height:40px;
+}
+

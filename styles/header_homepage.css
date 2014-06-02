@@ -1,0 +1,359 @@
+
+/*new*/
+.header
+{	
+	position: absolute;
+	top: 0;
+	/*background-color: #FFFFFF;*/	
+	height: 60px;
+	width: 100%;
+	min-width:1100px;
+	margin:0;
+	padding:0;
+	max-width: none !important;
+	z-index: 100;
+	/*opacity: 0.8;*/
+	font-family: 'Titillium Web', Arial, sans-serif;
+	color: #898989;
+
+}
+
+.header ul
+{
+	float: left;
+	position:absolute;
+}
+
+.header ul li
+{ 
+	display: inline;	
+}
+
+.header ul li a
+{
+	text-decoration: none;
+	font-family: 'Titillium Web', Arial, sans-serif;
+}
+
+.menu_home 
+{
+	left: 5%;
+}
+
+.menu_home ul
+{
+	margin: 0;
+}
+
+.menu a
+{
+	position: absolute;
+	top:15px;
+	font-size: 20px;
+	color: #095F67;
+	padding-right:15px;
+}
+
+.menu a:hover
+{
+	color: #ff5e00;
+}
+
+.home a
+{	
+	position: absolute;
+	left: 75px;
+	font-size: 35px;
+	font-weight: 600;
+	color: #ff5e00;
+}
+
+.explore ul
+{
+	font-size: 16px;
+	font-weight: bold;
+	left: 20%;
+}
+
+.explore li a
+{
+	color: #ffffff;	
+	padding:10px;
+}
+
+.explore ul li a:hover
+{
+	color: #ff5e00;
+}
+
+
+.login_signup ul{
+	left: 45%;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.login_signup ul li{
+	display:inline;
+}
+
+.login_signup ul li a{
+	color: #ffffff;
+	padding:1px 5px 1px 5px;
+}
+
+#signup a{
+	color: #1B939E;
+	background-color: #ffffff;
+}
+
+#signup a:hover{
+	color: #ffffff;
+	background-color: #1B939E;
+}
+
+#login a:hover{
+	color: #ff5e00;
+}
+
+.link_list ul
+{
+	left:65%;
+	height:60px;
+	margin-top:0px;
+	margin-bottom:0px;
+	top:0px;
+	width: 30%;
+	/*right:15%;*/
+}
+
+.link_list ul li 
+{ 
+	position:relative;
+	bottom:8px; 
+}
+
+.link_list img{
+	margin-top: 15px;
+	margin-left: 15px;
+	width: 40px;
+	height: 40px;
+}
+
+#search_wrap
+{
+	position: absolute;
+	top: 60px;
+	display: none;
+    background: #F0F0F0;
+    width: 690px;
+    max-width: none;
+    min-width: 690px;
+    max-height: none;
+    min-height: 180px;
+    height: 180px;
+    padding: 21px;
+    right:50px;
+}
+
+#search_wrap a
+{
+	color: black;
+}
+
+#search
+{
+	background-color: #CCC;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: -455px;
+	border: none;
+	min-width: 675px;
+	min-height: 30px;
+	max-width: none;
+	max-height: none;
+	width: 675px; 
+	height: 30px; 
+	overflow: hidden;
+}
+
+#advsearch 
+{
+	text-decoration: none;
+	position: relative;
+	top: 20px;
+}
+
+#cb
+{
+	margin-top: -45px;
+	margin-left: 150px;
+	position: absolute;
+	font-size: 12pt;
+}
+
+#bot
+{
+	padding-top: 0.5px;
+	margin-top: 10px;
+}
+
+#enter
+{
+	background-color: #099;
+	float: right;
+	color: #FFF;
+	border: none;
+	font-weight: bold;
+	font-size: 12pt;
+	padding: 5px 15px 5px 15px;
+	margin-top: 15px;
+	margin-right: 5px;
+}
+
+#advanced
+{
+	margin-top: 20px;
+}
+
+.label 
+{
+	color: #09C;
+	font-size: 14pt;
+	font-weight:bold;
+	margin-top: -5px;
+}
+
+.clear 
+{
+	position: absolute;
+	text-decoration: none;
+	font-size: 12pt;
+	margin-left: 600px;
+	margin-top: -45px;
+}
+
+.desc
+{
+	margin-top: 15px;
+	line-height: 110%;
+	font-size: 12pt;
+}
+
+#profile_menu
+{
+	position: absolute;
+	display: none;    
+	left: 70%;
+	top: 60px;
+    width: 140px;
+    height: 55px;
+    padding: 0 ;
+}
+
+#profile_menu ul{
+	position: relative;
+	list-style-type:none;
+	background: #1B939E;
+	padding:0;
+	left:0;
+	width: 140px;
+	height: 55px;
+}
+
+#profile_menu ul li{
+	display:inline-block;
+	top: 2px;
+	margin-bottom: 2px;
+	background: #404754;
+	width:100%;
+
+}
+
+#profile_menu ul li a{
+	cursor: pointer;
+	width: 100%;
+	text-decoration: none;
+	padding-left: 5px;
+	color: #1B939E;
+}
+
+#profile_menu ul li a:hover{
+	color: #ff5e00;
+}
+
+
+
+
+
+.createSaleLightBox{
+/*    width:500px;
+    height:500px;*/
+    z-index: 1000;
+    display:none;
+    position:fixed;
+    left:32%;
+    top:24%;
+    background-color: white;
+    padding:0px;
+}
+.createSaleTitle{
+    text-align: center;
+    height:46px;
+    width:500px;
+    font-size: 20px;
+    color:white;
+    background-color: #1B939E;
+    z-index:10;
+    margin-top: -20px;
+    font-family: 'Titillium Web', Arial, sans-serif;
+}
+.createSaleTitle p{
+    position:relative;
+    top:9px;
+    font-family: 'Titillium Web', Arial, sans-serif;
+/*    z-index:10;*/
+}
+.OneSale, .MultiSale{
+    text-align: center;
+    width:248px;
+    height:220px;
+    float:left;
+    border: solid black 1px;
+    z-index:10;
+    font-family: 'Titillium Web', Arial, sans-serif;
+}
+.MultiSale{
+    position: relative;
+    z-index:10;
+    font-family: 'Titillium Web', Arial, sans-serif;
+    /*height: 219.5px;*/
+ }
+.SubTitle{
+    margin-top: 20px;
+    margin-bottom:10px;
+    font-size: 30px;
+    line-height: 1px;
+    color:#FF6000;
+    font-family: 'Titillium Web', Arial, sans-serif;
+    /*z-index:10;*/
+}
+.SubText{
+    margin-top:5px;
+    line-height: 3px;
+    font-size:15px;
+    font-family: 'Titillium Web', Arial, sans-serif;
+    /*z-index:10;*/
+}
+.LoginInPic{
+    margin-top:8px;
+    height:130px;
+    width:130px;
+    font-family: 'Titillium Web', Arial, sans-serif;
+    /*z-index:10;*/
+}
+.OneSale:hover, .MultiSale:hover{
+    background-color:#FF6000;
+    color:white;
+    font-family: 'Titillium Web', Arial, sans-serif;
+}

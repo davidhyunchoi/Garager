@@ -1,0 +1,70 @@
+.createSaleLightBox{
+/*    width:500px;
+    height:500px;*/
+    z-index: 1000;
+    display:none;
+    position:fixed;
+    left:32%;
+    top:24%;
+    background-color: white;
+    padding:0px;
+}
+.createSaleTitle{
+    text-align: center;
+    height:46px;
+    width:500px;
+    font-size: 20px;
+    color:white;
+    background-color: #1B939E;
+    z-index:10;
+    font-family: 'Titillium Web', Arial, sans-serif;
+}
+.createSaleTitle p{
+    position:relative;
+    top:9px;
+    font-family: 'Titillium Web', Arial, sans-serif;
+/*    z-index:10;*/
+}
+.OneSale, .MultiSale{
+    text-align: center;
+    width:248px;
+    height:220px;
+    float:left;
+    border: solid black 1px;
+    z-index:10;
+    font-family: 'Titillium Web', Arial, sans-serif;
+}
+.MultiSale{
+    position: relative;
+    z-index:10;
+    font-family: 'Titillium Web', Arial, sans-serif;
+    /*height: 219.5px;*/
+ }
+.SubTitle{
+    margin-top: 20px;
+    margin-bottom:10px;
+    font-size: 30px;
+    line-height: 1px;
+    color:#FF6000;
+    font-family: 'Titillium Web', Arial, sans-serif;
+    /*z-index:10;*/
+}
+.SubText{
+    margin-top:5px;
+    line-height: 3px;
+    font-size:15px;
+    font-family: 'Titillium Web', Arial, sans-serif;
+    /*z-index:10;*/
+}
+.LoginInPic{
+    margin-top:8px;
+    height:130px;
+    width:130px;
+    font-family: 'Titillium Web', Arial, sans-serif;
+    /*z-index:10;*/
+}
+.OneSale:hover, .MultiSale:hover{
+    background-color:#FF6000;
+    color:white;
+    font-family: 'Titillium Web', Arial, sans-serif;
+}

@@ -1,0 +1,164 @@
+#itemLightBox{
+	width:600px;
+	height:300px;
+	border:solid black 1px;
+	font-family: 'Titillium Web', Arial, sans-serif;
+	z-index:1000;
+	position: fixed;
+	top: 15%;
+	left:20%;
+	background-color:#ffffff;
+	border: solid 1px #EDEDED;
+}
+.left, .middle, .right{
+	float: left;
+	padding:0px 5px;
+}
+#topPic{
+	padding: 15px 10px 5px 10px;
+	width:190px;
+	height:210px;
+}
+.bottomPics img{
+	width:30px;
+	height:30px;
+	padding:10px 3px;
+}
+#firstBottomPic{
+	padding-left: 10px;
+}
+.middle{
+	/*position: relative;
+	left:200px;*/
+	width:200px;
+	margin-left: -4px;
+}
+.itemTitle p{
+	font-size: 15px;
+	margin:10px 5px;
+	display:inline-table;
+}
+.itemDescription{
+	font-size: 12px;
+	margin:0px 10px;
+	height:190px;
+	overflow-y: scroll;
+	word-wrap: break-word;
+}
+.itemShare{
+	margin-top: 15px;
+	width:200px;
+	height: 30px;
+	font-size: 13px;
+	border-top-style:solid;
+	border-color:#EDEDED;
+}
+.itemShare p, .itemShare img{
+	margin:10px 0px 0px;
+	float: left;
+}
+.itemShare img{
+	width:16px;
+	height:16px;
+	margin:10px	5px 0px;
+}
+
+#fave{
+	margin-left: 35px;
+}
+
+.fave_image{
+	margin-right:0px;
+	float:right;
+}
+
+.fave_image:hover{
+	cursor: pointer;
+}
+
+.unfave_img:hover{
+	cursor: pointer;
+}
+
+.right{
+	width:110px;
+	margin-left: 3px;
+}
+.profile{
+	margin-top:15px;
+	width:110px;
+	height:120px;
+	font-size: 12px;
+	background-color: #EDEDED;
+}
+.profile p{
+	margin:0px 0px 0px 5px;
+	color: black;
+}
+.profile img{
+	margin:5px 0px 0px 5px;
+}
+#sellerPhoto{
+	float: left;
+	height: 40px;
+	width: 40px;
+}
+#folllowSeller{
+	
+	text-decoration: none;
+}
+#folllowSeller p{
+	width:43px;
+	background-color: #FF6000;
+	padding: 2px 6px;
+	margin-top: 5px;
+	color: white;
+	float:left;
+	cursor: pointer; 
+}
+#sellerName p{
+	clear:both;
+}
+#sendMessage{
+	text-decoration: none;
+	margin-top: 7px;
+}
+#sendMessage img{
+	float:left;
+	height:15px;
+	width:15px;
+	margin:1px 0px 9px 5px;
+}
+#sendMessage p{
+	margin:0px 0px 0px 5px;
+	color:black;
+}
+.garageSale p{
+	margin: 10px 0px; 
+	margin-bottom: 5px;
+	word-wrap: break-word;
+	font-size: 12px;
+	line-height: 13px;
+}
+#OnOrOff{
+	margin-top: 17px;
+}
+#seeGaragerSale, #addToCart{
+	text-decoration: none;
+}
+#addToCart p{
+	font-size: 12px;
+	width: 80px;
+	padding:10px  0px 10px 20px;
+	color:#FF6000;
+	background-color: white;
+	border:solid 3px;
+	border-color: #FF6000;
+}
+#seeGaragerSale p{
+	font-size: 12px;
+	width: 88px;
+	color: white;
+	background-color: #FF6000;
+	padding:10px 8px;
+}

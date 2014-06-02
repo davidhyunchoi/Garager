@@ -1,0 +1,563 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.container{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 950px;
+	max-width: none !important;
+}
+
+.conright-img
+{
+	width: 700px;
+	height: 230px;
+    margin-left:8px;
+    margin-right:8px;
+}
+
+.content-right{
+	float: left;
+	margin-top: 20px;
+	width: 700px;
+}
+
+.searchlist{
+	font-family:'Titillium Web', Arial, sans-serif;
+	margin-left: 8px;
+	margin-bottom: 20px;
+	background-color: #FFFFFF;
+}
+
+.searchlist span{
+	margin-bottom:20px;
+	background-color: #FF5E00;
+	position: relative;
+	top: 15px;
+	vertical-align: center;
+	padding-right:5px;
+}
+
+.searchlist span a{
+	color:#FFFFFF ;
+	text-decoration: none;
+}
+
+.searchlist span:hover{
+	opacity: 0.5;
+}
+
+.searchlist p{
+	float:left;
+	margin-bottom:0;
+	font-weight: bold;
+	color: #898989;
+	margin-right: 10px;
+}
+
+.searched_tag{
+	margin-top: 30px;
+	margin-right:10px;
+	font-size: 13px;
+	margin-left:5px;
+	font-weight: bold;
+}
+
+.clear_tag{
+	text-align: right;
+	right:1px;
+	font-weight: bold;
+}
+
+.searched_user_tag{
+	margin-top: 30px;
+	margin-right:10px;
+	font-size: 13px;
+	margin-left:5px;
+	font-weight: bold;
+}
+
+.clear_user_tag{
+	text-align: right;
+	right:1px;
+	font-weight: bold;
+}
+
+.sorttypelist{
+	margin-left: 8px;
+}
+
+.sort_nav{
+	font-family:'Titillium Web', Arial, sans-serif;
+	font-weight: bold;
+}
+
+.sort_nav div ul{
+	display: none;
+}
+
+.sort_nav div:hover > ul{
+	display: block;
+}
+
+.sort_nav div {
+	margin-top: 15px;
+	position: relative;
+	display: inline-table;
+	color:#FFFFFF;
+	vertical-align: center;
+	padding:0;
+	background-color: #FFFFFF;
+	margin-right: 10px;
+}
+
+
+.sort_nav p {
+	float:left;
+	margin-top: 15px;
+	margin-bottom:0;
+	margin-right:10px;
+	color: #898989;
+
+}
+
+.sort_nav div:after {
+	content: ""; float: left; display: block;
+}
+
+.sort_nav div {	 
+	float: none;
+	width:160px;
+	height:20px;
+	font-size:13px;
+	background-color: #FFFFFF;
+	color:#FFFFFF;
+	margin-right: 10px;
+	text-align: left;
+	padding-bottom:2px;
+}
+
+.sort_nav div:hover a {
+	color: #fff;
+}
+	
+.sort_nav div a {
+	background: #898989;
+	display: block;
+	color: #FFFFFF; 
+	text-decoration: none;
+	vertical-align: top;
+	padding-left: 3px;
+
+}
+
+.sort_nav div ul {
+	background: #404754; 
+	padding: 0;
+	margin: 0;
+	position: absolute; top: 100%;
+	list-style: none;
+	z-index: 5;
+}
+	
+.sort_nav div ul li {
+	float: none; 
+	position: relative;
+	text-indent: 0px;
+	font-size:12px;
+	width:160px;
+	border-top: 1px solid #ffffff;
+	vertical-align: center;
+	text-align: left;
+}
+
+.sort_nav div ul li a {
+	padding-left: 2px;
+	padding-bottom:2px;
+	color: #fff;
+	background: #404754;
+}	
+
+.sort_nav div ul li a:hover {
+	background: #898989;
+	border:1px solid #ffffff;
+}
+
+.mainTitle{
+	float: left;
+	margin-left:8px;
+	padding-left: 0px;
+}
+
+.mainTitle h2{
+	margin:0;
+	color:#404754;
+	font-family:'Titillium Web', Arial, sans-serif;
+	font-weight: lighter;
+}
+
+.piclist{
+	float: left;
+	width: 716px;
+}
+
+.conright-expics{
+	float: left;
+	margin: 8px;
+	width:163px;
+	height:170px;
+}
+
+.garagersale_pics{
+	float: left;
+	margin: 8px;
+	width:163px;
+	height:170px;
+}
+
+.garagersale_full_text{
+	text-decoration: none;
+	color:#404754;
+	font-size: 15px;
+	font-family:'Titillium Web', Arial, sans-serif;
+	margin:8px;
+	float:left;
+	padding-left: 5px;
+	width:158px;
+	height:170px;
+	margin-left:-171px;
+	opacity:0.9;
+	background-color: #ffffff;
+	display: none;
+}
+
+.garagersale_text{
+	text-decoration: none;
+	color:#404754;
+	font-size: 15px;
+	font-family:'Titillium Web', Arial, sans-serif;
+	margin:8px;
+	margin-top:102px;
+	float:left;
+	width:163px;
+	height:76px;
+	margin-left:-171px;
+	background-color: #ffffff;
+	opacity:0.9;
+	display: block;
+}
+
+.piclist :hover{
+	cursor: pointer;
+}
+
+.sidebar{
+	float: right;
+	margin-top: 20px;
+	background-color: #ffffff;
+	font-family:'Titillium Web', Arial, sans-serif;
+	color:#404754;
+}
+
+#sidebar1{
+	width: 220px;
+	border-bottom: thick solid #ebebeb;
+
+}
+
+.sidebar1-top{
+	margin-top: 0px;
+	padding: 0px;
+}
+
+.sidebar1-top p{
+	margin: 0px;
+	padding: 0px;
+}
+
+.userinfo{
+	padding: 0;
+    list-style-type: none;
+}
+
+.userinfo li img{
+	padding: 0;
+}
+
+.userinfo a{
+	vertical-align: top;
+}
+
+
+.list_count{
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	min-width:30px;
+	margin:0;
+}
+
+.list_title{
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	margin:0;
+}
+
+.userinfo a:hover{
+	cursor: pointer;
+	color: #ff5e00;
+}
+
+.history a:hover{
+	cursor: pointer;
+	color: #ff5e00;
+}
+
+.sidebar2{
+	background-color:#ffffff;
+	min-height:100px;
+	width: 220px;
+	margin-top: 0px;
+	padding: 0;	
+	border-bottom: thick solid #ebebeb;	
+}
+
+.sidebar2 h4{
+	margin: 0;
+	padding: 0;		
+}
+
+.sug_foll_div{
+	display: inline-block;
+	min-width: 220px;
+}
+.sug_foll_text, .sug_foll_image{
+	display: inline-block;
+	height:60px;
+	float:left;
+}
+
+.sug_foll_button{
+	display: inline-block;
+	height:60px;
+	float:right;
+}
+
+.sug_foll_div p{
+	vertical-align: top;
+	margin:0;
+	padding-right: 8px;
+}
+
+.sug_foll_image img{
+	width:40px;
+	height:40px;
+	padding-top: 8px;
+	padding-right: 8px;
+}
+
+.sug_foll_button p{
+	position: relative;
+	right:0;
+	padding-left:4px;
+	padding-right:4px;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+	vertical-align: center;
+	background-color: #ff5e00;
+	color: #ffffff;
+}
+
+.sug_foll_button p:hover{
+	background-color: #ffffff;
+	color: #ff5e00;
+	border: solid thin #ff5e00;
+	cursor: pointer;
+}
+
+
+.f1{
+	float:left;
+	margin-top: 3px;
+	font-size:12px;
+}
+
+.f1 img{
+	width:35px;
+	height:35px;
+}
+
+.f2{
+	float:left;
+	margin-top: 3px;
+	font-size:12px;
+}
+
+.f2 img{
+	width:35px;
+	height:35px;
+}
+
+.userpic img{
+	height:120px;
+	width:120px;
+	margin:2px;	
+
+}
+.follow{
+	float:right;
+	padding-left:7px;
+	padding-right:7px;
+	text-align: center;
+	margin-right: 0px;
+	margin-top:2px;
+	background-color: #ff5e00;
+	color: #ffffff;
+	font-weight: bold;
+
+}
+
+.follow:hover{
+	background-color: #ffffff;
+	color: #ff5e00;
+	border: solid thin #ff5e00;
+	cursor: pointer;
+}
+
+.username{
+	color: #ff662d;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.userlocation{
+	margin-top: 2px;
+	padding-top:2px;
+}
+
+.userinfo img{
+	width: 25px;
+	height: 20px;
+	padding-right: 10px;
+}
+
+#star{
+	width:15px;
+	height:15px;
+}
+
+.userinfo{
+	font-family:'Titillium Web', Arial, sans-serif;
+	text-align:left;
+	padding-bottom: 2px;
+}
+
+
+
+.ads{
+	float:right;
+	margin-left:auto;
+	margin-right:auto;
+	width:230px;
+	height:500px;
+}
+
+.ads img{
+	width:230px;
+	height:230px;
+	margin-bottom: 7px;
+}
+
+/*lightBoxBackground-CSS*/
+.lightBoxBackground{
+
+    z-index:999;
+    display: none;
+    position: fixed;
+    top:0px;
+    right:0px;
+    width:100%;
+    height:100%;
+    background-color: black;
+}
+
+.right{
+ float: right;
+ width: 30%
+}
+
+.saleinfo{
+  float: left;
+ width: 50%
+}
+
+.garager_icon{
+  float: left;
+ width: 20%
+}
+
+.saleinfo_header div{
+  display: inline-block;
+}
+
+.saleinfo_header{
+  width: 100%;
+  min-width:500px
+}
+
+.faves{
+  display: inline
+}
+
+.sale_des{
+ clear:both;
+ line-height:1;
+ font-size:15px;
+ padding-right:20px
+}
+
+.sidebar3{
+	background-color:#ffffff;
+	float: right;
+	min-height:100px;
+	width: 220px;
+	margin-top: 0px;
+	padding: 0;		
+}
+
+.sidebar3 h4{
+	margin: 0;
+	padding: 0;		
+}
+
+.garager_sale_listing{
+	width:100%;
+	background-color:#ebebeb;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.ads-name{
+	padding-top: 20px;
+	margin-left: 10px;
+}
+
+.ads-name img{
+	height:50px;
+	float:left;
+	padding-right: 5px;	
+}
+
+.ads-info{
+	clear: both;
+	color:#ff5e00;
+	margin-left: 10px;
+	padding-bottom: 20px;
+}

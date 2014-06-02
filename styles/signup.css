@@ -1,0 +1,111 @@
+#signUpLightBox{
+	position: absolute;
+	top:120px;
+	left:37%;
+	width:320px;
+	height:470px;
+	padding: 20px;
+	border:solid black 1px;
+	font-family: 'Titillium Web', Arial, sans-serif;
+	background-color: #FFFFFF;
+	display:none;
+	z-index: 1000;
+}
+.errorMessage{
+	font-size: 12px;
+	position:absolute;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	padding: 0px;
+	margin-left: 10px;
+}
+
+.errorMessage p
+{
+	margin-right: 25px;
+}
+
+.signUpTitle {
+	position:relative;
+	margin-top: 0px;
+	margin-left: 10px;
+	font-size: 30px;
+}
+
+.forminp
+{
+	font-size:13px;
+}
+
+.row{
+	position: relative;
+	margin-left: 10px;
+	margin-top: 30px;
+	width: 280px;
+
+}
+.row2{
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 30px;
+	top:200px;
+	width: 280px;
+}
+.row3{
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 30px;
+	top:250px;
+	width: 280px;
+}
+.col{
+	float: left;
+	width: 140px;
+}
+
+.myinputfield{
+	background-size: 25px 25px;
+	width:120px;
+	height:25px;
+}
+#agreement{
+	position: absolute;
+	top: 395px;
+	left:20px;
+	width: 300px;
+	font-size: 13px;
+}
+
+
+
+#signup_button{
+        position:absolute;
+        top: 440px;
+        background-color: #339999;
+        font-size: 20px;
+        margin-left: 0px;
+		text-align: center;
+		text-decoration: none;
+		padding: 10px 40px;
+        color: #FFFFFF;
+        border:solid 1px #339999;
+        font-family: 'Titillium Web', Arial, sans-serif;
+
+}
+#signup_button:hover{
+        background-color: #FFFFFF;
+        color: #1B939E;
+        border:solid 1px #1B939E;
+        cursor: pointer;
+}
+
+
+input[type=text], input[type=password]{
+
+font-size: 18px;
+line-height: 18px;
+float: left;
+width: 140px;
+display: block;
+margin: 0;
+}

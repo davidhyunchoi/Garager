@@ -1,0 +1,384 @@
+@charset "utf-8";
+html {
+	/* [disabled]min-height: 0px; */
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	
+	min-height:1000px;
+	min-width:1200px;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin-top: 0px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: 0px;
+	/*font-size: 80%; /**10px*/
+}
+
+.container {
+	font-family: 'Titillium Web', Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/*
+.top_header #garage_sales_link, .top_header .search_link, .top_header .shopping_cart_link {
+
+	top: 25%;
+	right:10px;
+}
+*/
+
+
+.hero {
+	position: absolute;
+	width: 100%;
+	height: 630px;
+	background-size: 100% 100%;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+}
+.hero_slide {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	margin: 0px;
+}
+
+
+.headline {
+	top: 15%;
+	position: absolute;
+	text-align: center;
+	font-family: 'Titillium Web', Arial, sans-serif;
+	font-size: 2em;
+	left: 55%;
+	margin-left: 0px;
+	width: 480px;
+	color: #FFFFFF; 
+	z-index: 10;
+	
+}
+
+.headline h2 {
+	font-weight: 100;
+	font-size: 80px;
+	padding-bottom: 0%;
+	margin-bottom: 0px;
+	z-index: 10;
+	color:#404754;
+	line-height: 80px;
+	/*background-color:#000000;
+    opacity:0.5;*/
+}
+
+
+.headline div, .headline2 div {
+	font-size: 30px;
+	padding-bottom: 5%;
+	color:#404754;
+	line-height: 30px;
+	/*background-color:#000000;
+    opacity:0.5;*/
+}
+
+.headline p{
+	margin-top: 0px;
+}
+
+.headline .article_button, .headline2 .article_button {
+	text-decoration: none;
+	color: #FF6000;
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+.article_button:active , .article_button:focus, .article_button:hover{
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #FF6000;
+	margin: 0px;
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+
+.sidekick {
+	height: 100%;
+	width: 100%;
+	background-color: #404754;
+	position: relative;
+	top: 0%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#sites {
+	clear: left;
+	width:100%;
+	min-height: 100%;
+}
+
+#sites_row1 {
+	position: relative;
+	top: 50px;
+	min-height: 220px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#sites_row2 {
+	position: relative;
+	top: 20px;
+	min-height: 220px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#sites_row1 div{
+	width:1000px;
+	min-height:220px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sites_row2 div{
+	width:1000px;
+	min-height:220px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sites_row1 img {
+	width: 220px;
+	height: 220px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#sites_row2 img {
+	width: 220px;
+	height: 220px;
+	margin-top:50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+
+/*lightBoxBackground-CSS*/
+.lightBoxBackground{
+
+    z-index:999;
+    display: none;
+    position: fixed;
+    top:0px;
+    right:0px;
+    width:100%;
+    height:100%;
+    background-color: black;
+}
+
+
+/*logInLightBox-CSS*/
+
+
+
+/* css changes for bottom section*/
+.AppGallery {
+	height: 100%;
+	width: 100%;
+	background-color: white; /*#404754;*/
+	margin: 0px;
+	padding: 0px;
+}
+
+#AppGallery_sites {
+	clear: left;
+	width: 100%;
+	height: 100%;
+	/*background-color: yellow;*/
+}
+
+#AppGallery_sites p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+#AppGallery_sites_row1 {
+	height: 18%;
+	position: relative;
+	top: 0%;
+	margin-left: 0%;
+	margin-right: 0%;
+	background-color: #1a939c;
+}
+
+#AppGallery_sites_row1 p {
+	font-size: 5em;
+	color: white; 
+}
+
+#AppGallery_sites_row2 {
+	height: 15%;
+	position: relative;
+	top: 0%;
+	margin-left: 8%;
+	margin-right: 8%;
+	/*background-color: red;*/
+}
+
+#AppGallery_sites_row2 p {
+	font-size: 2.5em;
+	padding-top: 1%;
+}
+
+/*#AppGallery_sites_row1 img {
+	width: 22%;
+	height: 80%;
+	padding-left: 0%;
+	padding-right: 2%;
+}*/
+
+#AppGallery_sites_row3 {
+	height: 67%;
+	position: relative;
+	top: 0%;
+	margin-left: 8%;
+	margin-right: 8%;
+	/*background-color: green;*/
+}
+
+#AppGallery_sites_row3 img {
+	width: 85%;
+	height: 80%;
+	padding-top: 2%;
+	padding-left: 6%;
+	padding-right: 0%;
+}
+#closeIcon{
+	position: absolute;
+	top: 25px;
+	right: 10%;
+	z-index:20;
+}
+#closeIcon img{
+	width: 40px;
+	height: 40px;
+}
+
+
+/* css changes for bottom section*/
+.SellStuff {
+	height: 100%;
+	width: 100%;
+	background-color: white; /*#404754;*/
+	margin: 0px;
+	padding: 0px;
+}
+
+#SellStuff_sites {
+	clear: left;
+	width: 100%;
+	height: 100%;
+	/*background-color: yellow;*/
+}
+
+#SellStuff_sites p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+#SellStuff_sites_row1 {
+	height: 18%;
+	position: relative;
+	top: 0%;
+	margin-left: 0%;
+	margin-right: 0%;
+	background-color: #1a939c;
+}
+
+#SellStuff_sites_row1 p {
+	font-size: 5em;
+	color: white; 
+}
+
+#SellStuff_sites_row2 {
+	height: 10%;
+	position: relative;
+	top: 0%;
+	margin-left: 8%;
+	margin-right: 8%;
+	/*background-color: red;*/
+}
+
+#SellStuff_sites_row2 p {
+	font-size: 2.5em;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+/*#SellStuff_sites_row1 img {
+	width: 22%;
+	height: 80%;
+	padding-left: 0%;
+	padding-right: 2%;
+}*/
+
+#SellStuff_sites_row3 {
+	height: 72%;
+	position: relative;
+	top: 0%;
+	margin-left: 8%;
+	margin-right: 8%;
+	/*background-color: green;*/
+}
+
+#SellStuff_sites_row3 img {
+	width: 85%;
+	height: 80%;
+	padding-top: 7%;
+	padding-left: 7%;
+}
+.DummyFeatureLink {
+	height: 100%;
+	width: 100%;
+	background-color: white; /*#404754;*/
+	margin: 0px;
+	padding: 0px;
+}
+/*
+#DummyFeatureLink_sites {
+	clear: left;
+	width: 100%;
+	height: 100%;
+	background-color: yellow;
+}*/
+.DummyFeatureLink img{
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+
+

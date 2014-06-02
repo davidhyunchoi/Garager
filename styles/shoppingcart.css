@@ -1,0 +1,273 @@
+
+
+/*shoppingcart*/
+
+body{
+	padding-top: 60px;
+	padding-bottom: 0;
+	height: 100%;
+}
+.textarea1 textarea{
+	resize:none;
+}
+
+.shopping_cart_page{
+	min-height: 400px;
+}
+
+.itemcheckoutlist{
+	top:30px;
+	position: relative;
+	height:300px;
+	width:800px;
+	/*border:2px solid;*/
+	left:140px;
+	bottom:10px;
+	min-width: 900px;
+	margin-bottom: 30px;
+}
+
+.itemInfo{
+	float: left;
+	position: relative;
+	height:90%;
+	width:60%;
+	/*border:2px solid;*/
+	top:5px;
+	left:5px;
+}
+.itemOrder{
+	float: right;
+	position: relative;
+	height:90%;
+	width:30%;
+	/*border:2px solid;*/
+	top:5px;
+	right:5px;
+	background-color: #ededed;
+}
+
+.itemOrderTitle{
+	padding-left:20px;
+	font-size: 25px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.itemOrderPrice{
+	padding-left:20px;
+	font-size: 15px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+table{
+	width:100%;
+	height:50px;
+}
+table td{
+	width:60%;
+}
+.itemOrderTotalBox{
+	padding-left:20px;
+	position: relative;
+
+}
+.itemOrderTotal{
+	float:left;
+	font-size: 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:60%;
+}
+.itemOrderTotalPrice{
+	float: left;
+	font-size: 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:4%;
+
+}
+#BuyNowButton{
+	background-color: #339999;
+	position: absolute;
+	top: 210px;
+	right:15px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	padding: 16px 30px;
+	font-size: 18px;
+	font-family:Arial, Helvetica, sans-serif;
+	border: 0;
+}
+
+#finishPurchaseButton{
+	background-color: #339999;
+	/*position: absolute;
+	top: 210px;
+	right:15px;*/
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-right: 63px;
+	padding-left: 63px;
+	font-size: 18px;
+	font-family:Arial, Helvetica, sans-serif;
+	border: 0;
+	margin-top: -20px;
+	margin-bottom: 0px;
+
+}
+
+#addInfoButton{
+	background-color: #898989;
+	/*position: absolute;
+	top: 210px;
+	right:15px;*/
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	padding: 5px 5px;
+	font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif;
+	border: 0;
+	float: right;
+	margin-top: 30px;
+	margin-right: 5px;
+}
+
+.billInfoTitle{
+	padding-left:20px;
+	font-size: 25px;
+	font-family:Arial, Helvetica, sans-serif;
+	float: left;
+	padding-top: 30px;
+}
+
+.billInfo, .shipInfo{
+	padding-left:20px;
+}
+
+.shipInfo{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+/*item information*/
+.orderFrom{
+	position: relative;
+	padding-left: 10px;
+	padding-top: 10px;
+	height:30px;
+	vertical-align: center;
+}
+.orderFrom img{
+	width:28px;
+	height:28px;
+}
+.orderFrom a{
+	color:#000000;
+}
+.orderFromText {
+	position: absolute;
+	padding-left: 10px;
+	top:15px;
+}
+.orderImage1 {
+	float:left;
+	position: relative;
+	padding-left: 10px;
+	padding-top: 10px;
+	height:250px;
+
+}
+.orderImage1 img{
+	width:180px;
+	height:200px;
+}
+
+.orderDetail{
+	float:left;
+	position: absolute;
+	top:50px;
+	height:200px;
+	width:350px;
+	/*border:2px solid;*/
+	left:240px;
+	bottom:10px;
+}
+.itemName1{
+	position: relative;
+	float:left;
+	padding-left: 10px;
+	padding-top: 20px;
+	font-size: 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:60%;
+}
+.itemPrice1{
+	position: relative;
+	float:left;
+	padding-left: 45px;
+	padding-top: 20px;
+	font-size: 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:4%;
+
+}
+.itemShipment{
+	float: left;
+	position: relative;
+	padding-left: 10px;
+
+}
+.itemShipmentCheckbox{
+	float: left;
+	position: relative;
+	padding-left: 10px;
+}
+.addMessages{
+	float: right;
+	position: relative;
+	padding-right: 10px;
+}
+.textarea1{
+	float: left;
+	position: relative;
+	padding-left: 10px;
+}
+.remove{
+	position: absolute;
+	left: 530px;
+	top:30px;
+	/*color: #C0C0C0;*/
+
+	
+	
+}
+#RemoveButton{
+	text-decoration: none;
+	border: 0;
+	background-color: white;
+	color: #C0C0C0; 
+	padding: 0;
+	margin: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.h_line1{
+	position:relative;
+	border:solid 3px;
+	top:300px;
+	width: 80%
+	left:30px;
+	color: #ededed;
+}
+
+.completed_checkout{
+	padding-left:20px;
+}
+
+.textarea1{
+	display: none;
+}

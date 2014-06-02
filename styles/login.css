@@ -1,0 +1,198 @@
+#logInLightBox{
+	position: absolute;
+	top:120px;
+	left:40%;
+        width:300px;
+        height:400px;
+        border:solid 1px;
+        border-color: #EDEDED;
+        font-family: 'Titillium Web', Arial, sans-serif;
+	display: none;
+	z-index: 1000;
+	background-color: #FFFFFF;
+}
+.logInInTitle {
+        /*display:inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+*/
+        position:relative;
+        margin-top: 10px;
+        margin-left: 35px;
+        font-size: 30px;
+}
+
+.errorMessage{
+	font-size: 12px;
+	position:relative;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	padding: 0px;
+	margin-left: 10px;
+}
+
+.errorMessage p{
+	margin: 0;
+	padding: 0;
+}
+
+#topTitleLog{
+        margin-left: 30px;
+        color: black;        
+} 
+#titleCreateAccount{
+        color:#FF6000;
+}
+/*
+#facebook, #twitter{/*
+        width:216px;*/
+/*        color:white;
+        font-size: 16px;
+        margin:10px 10px;
+        padding: 10px 20px;
+}
+*/
+/*
+#facebook img, #twitter img{
+        width:20px;
+        height:20px;
+}*/
+/*
+#facebook{
+        margin-top: 5px;
+        background-color: #3B5998;
+}*/
+#facebook{
+        position: relative;
+        margin-left: 10px;
+        margin-top: 30px;
+}
+#facebook img{
+        width: 80%;
+
+}
+#twitter{
+        background-color:#4099FF;
+}
+#middleTitleOr{
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 10px;
+}
+.signInBox{
+        margin-top: 10px;
+        margin-left: 10px;
+}
+.signInBox input{
+        padding-left:10px;
+}
+#username{
+        /*background-color: black;*/
+/*        font-size: 100px;*/
+        position:absolute;
+        top:220px;
+        background: url(images/icons/username.png) no-repeat right center;
+        background-size: 25px 25px;
+        width:216px;
+        height:30px;
+}
+#password{
+        position:absolute;
+        top:250px;
+        background: url(images/icons/password.png) no-repeat right center;
+        background-size: 25px 25px;
+        margin: 9px 0px 16px;        
+        width:216px;
+        height:30px;
+}
+/*
+#login_button{
+        /*
+        background-color: #1B939E;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        padding: 8px 94px;
+        */
+   /*     position:absolute;
+        top:300px;
+        background-color: #339999;
+        /*position: relative;*/
+        /*top: 10px;*/
+        /*margin-left: 10px;*/
+    /*    font-size: 20px;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        padding: 8px 50px;
+}*/
+#login_button{
+        position:absolute;
+        top:300px;
+        background-color: #339999;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        padding: 6px 50px;
+
+        color: #FFFFFF;
+        border:solid 1px #339999;
+        font-weight: lighter;     
+        
+   
+        font-family: 'Titillium Web', Arial, sans-serif;
+
+}
+#login_button:hover{
+        background-color: #FFFFFF;
+        color: #1B939E;
+        border:solid 1px #1B939E;
+        cursor: pointer;
+}
+.bottomLine{
+        position:absolute;
+        top:370px;
+        left:10px;
+        /*
+        margin-top: 12px;
+        margin-left: 12px;
+        font-size: 13px;
+        */
+
+}
+
+.bottomLine p{
+        display:inline;
+}
+#bottonTitleReset{
+        text-decoration: none;
+        color: #FF6000;
+}
+#submitted{
+        position: absolute;
+        top: 10px;
+}
+/**/
+.LoginGeneral{
+        position: relative;
+        margin-left: 10px;
+        margin-top: 10px;
+}
+#rememberMe{
+        position: absolute;
+        top:330px;
+        margin-left: 10px;
+        margin-top: 25px;
+}
+
+#reset{
+        position: absolute;
+        top:360px;
+        margin-left: 10px;
+        margin-top: 12px;
+}
+#reset a{
+        text-decoration: none;
+        color: #FF9933;
+}

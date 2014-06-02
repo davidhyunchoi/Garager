@@ -1,0 +1,112 @@
+body{
+    font-family: 'Titillium Web', Arial, sans-serif;
+}
+#billingInfoLightBox{
+		position: absolute;
+		top:15%;
+		left:10%;
+        width: 540px;
+        height: 570px;
+        border:solid 1px;
+        border-color: #EDEDED;
+        font-family: 'Titillium Web', Arial, sans-serif;
+		display: none;
+		z-index: 1000;
+		background-color: #FFFFFF;
+		padding: 10px 20px 10px 20px;
+}
+
+.title p{
+	color: #339999;
+	border-bottom: solid 1px black;
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+.billingInfo{
+	font-size: 16px;
+}
+
+.billingInfo p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.paymentInfo p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+input.firstName, input.lastName, input.add1, input.add2, input.phone{
+	width: 80%;
+}
+
+input.city{
+	clear: both;
+	width: 18%;
+	float: left;
+}
+
+input.zip{
+	width: 18%;
+	float: left;
+}
+
+.citytext, .ziptext{
+	float: left;
+}
+
+.citytext{
+	clear: both;
+	margin-right: 10%;
+}
+
+.selectState, .phone{
+	clear: both;
+}
+
+select{
+	font-size: 16px;
+	float: left;
+}
+.save{
+	width:200px;
+	height: 40px;
+	margin-top:20px; 
+	color: white;
+	background-color:#1B939E;
+	float: right;
+	
+}
+.bottom{
+	clear: both;
+	font-size: 10px;
+	float: left;
+}
+
+.paymentInfo{
+	float: left;
+	width: 270px;
+}
+
+.billingInfo{
+	float: left;
+	width: 270px;
+}
+
+.title{
+	float: left;
+	width: 270px;
+}
+
+.save_payment, .save_default_payment{
+	clear: both;
+	float: left;
+}
+
+input.save_default_payment{
+	float: left;
+}
+
+p.PayPal, p.CreditCard{
+	color: #339999;
+}

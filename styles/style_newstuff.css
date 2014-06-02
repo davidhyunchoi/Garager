@@ -1,0 +1,155 @@
+@charset "UTF-8";
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.banner
+{	
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	background-color: #333333;
+	height: 60px;
+}/* CSS Document */
+
+.container{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 970px;
+	max-width: none !important;
+}
+
+.navbar-header 
+{
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bold;
+	color: #ff5e00;
+	font-family: 'Titillium Web', Arial, sans-serif;
+}
+
+.navbar-header{
+	margin-left: 0;
+	margin-right: 0;
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.nav ul
+{
+	float: left;
+}
+
+.nav ul li { display: inline; }
+
+.nav ul li a
+{
+	text-decoration: none;
+	padding: 3px;
+	color: #ebebeb;
+	font-size: 20px;
+	font-family: 'Titillium Web', Arial, sans-serif;
+}
+
+.nav ul li a:hover
+{
+	color: #2F97A1;
+	background-color: #ffffff;
+}
+
+.linklist ul
+{
+	float: right;
+}
+
+.linklist ul li 
+{ 
+	display: inline;
+	position:relative;
+	bottom:8px; 
+}
+
+.linklist img{
+	width: 45px;
+	height: 40px;
+}
+
+.loginsignup ul{
+	float:right;
+}
+
+.loginsignup ul li{
+	display:inline;
+}
+
+.loginsignup ul li a{
+	text-decoration: none;
+	padding: 3px;
+	color: #ebebeb;
+	font-size: 20px;
+	font-family: 'Titillium Web', Arial, sans-serif;
+}
+
+.loginsignup ul li a:hover{
+	color: #2F97A1;
+	background-color: #ffffff;
+}
+
+.content{
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+	margin-top: 5px;
+	width: 900px;
+}
+
+.conright-img{
+	float:left;
+	width:700px;
+	height:200px;
+	margin-bottom:10px;
+}
+
+.signupimage{
+	float:right;
+	width:200px;
+	height:200px;
+	margin-bottom:10px;
+}
+
+.piclist{
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	width:95%;
+	margin-top: 10px;
+	width:700px;
+}
+
+.conright-expics{
+	/*float: left;*/
+	margin: 4px;
+	margin-top:10px;
+	margin-left:4px;
+	margin-right:6px;
+	width:160px;
+	height:160px;
+}
+
+.ads{
+	float:right;
+	margin-left:auto;
+	margin-right:auto;
+	width:200px;
+	height:200px;
+}
+
+#newad {
+	margin-top:20px;
+	width:200px;
+	height:200px;
+}
